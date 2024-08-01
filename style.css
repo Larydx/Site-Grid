@@ -1,0 +1,1125 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+
+    
+}
+
+header div {
+   background:#f5f5f5;;
+   min-height: 6vh;
+    
+    
+}
+header p {
+    position: relative;
+    left: 16%;
+    top: 0.5vw;
+    font-family: "Cairo", sans-serif;
+    font-size: 14px;
+    color: #000000;
+    display: inline-block;
+    margin-right: 45px;
+}
+header svg{
+    position: relative;
+    left: 15.4%;
+    top: 0.7vw;
+}
+header i{
+    position: relative;
+    left: 20%;
+   margin-right: 1vw;
+
+}
+header i img{
+    position: relative;
+    left: 21%;
+   margin-right: 1vw;
+   top:0.7vw;
+
+}
+
+#main {
+    display: grid;
+   
+    
+}
+
+ 
+#main 
+#logo{grid-column: 2;}
+#nav {grid-column: 3/6;}
+#nav ul li{
+font-family:  "Cairo", sans-serif;
+font: 14px;
+font-size: 14px;
+color: #252525;
+font-weight: 700;
+letter-spacing: 2px;
+position: relative;
+
+}
+
+
+#menu{grid-column:2;
+grid-row: 2/4;}
+#busca{grid-column:3/6;
+    grid-row: 2;
+display: flex;}
+#banner{grid-column:3/6;
+    grid-row: 3;
+background-image: url(img/banner.jpg);
+
+padding-left: 5vw;
+padding-top: 10vh;}
+
+
+#prod1{grid-column:2;
+ grid-row: 4;
+ background-image: url(img/cat-1.jpg);
+margin-top: 8vh;
+width: 250px;
+position: relative;
+left: 2.5vw;
+height: 30vh;
+background-position: top center;
+object-fit: cover;
+}
+#prod1 h5 a{
+ 
+    width: 73%;
+    font-size: 18px;
+    color: #1c1c1c;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 12px 0 10px;
+    background: #ffffff;
+    display: block;
+    font-family:  "Cairo", sans-serif;
+    text-decoration: none;
+    position: relative;
+    left: 2.5vw;
+    top:24vh;
+    text-align: center;
+   
+   
+}
+
+#prod2{grid-column:3;
+        grid-row: 4;
+        background-image: url(img/cat-2.jpg);
+        margin-top: 8vh;
+        width: 240px;
+        height: 30vh;
+        background-position: top center;}
+#prod2 h5 a{
+    
+    width: 73%;
+            font-size: 18px;
+            color: #1c1c1c;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            padding: 12px 0 10px;
+            background: #ffffff;
+            display: block;
+            font-family:  "Cairo", sans-serif;
+            text-decoration: none;
+            position: relative;
+            left: 2.5vw;
+            top:24vh;
+            text-align: center;
+           
+}
+
+        
+#prod3{grid-column:4;
+    grid-row: 4;
+    background-image: url(img/cat-3.jpg);
+    margin-top: 8vh;
+    width: 240px;
+    height: 30vh;
+    background-position: top center;}
+#prod3 h5 a{
+    width: 73%;
+    font-size: 18px;
+    color: #1c1c1c;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 12px 0 10px;
+    background: #ffffff;
+    display: block;
+    font-family:  "Cairo", sans-serif;
+    text-decoration: none;
+    position: relative;
+    left: 2.5vw;
+    top:24vh;
+    text-align: center;
+   
+}
+#prod4{grid-column:5;
+     grid-row: 4;
+     background-image: url(img/cat-4.jpg);
+     margin-top: 8vh;
+     width: 240px;
+     height: 30vh;
+     background-position: top center;
+}
+#prod4 h5 a{
+    width: 74%;
+      font-size: 18px;
+    color: #1c1c1c;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 12px 0 10px;
+    background: #ffffff;
+    display: block;
+    font-family:  "Cairo", sans-serif;
+    text-decoration: none;
+    position: relative;
+    left: 2.5vw;
+    top:24vh;
+    text-align: center;
+   
+}
+#logo img{
+position: relative;
+top: 1.4vh;
+left: 6vw;
+     }
+#banner span{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 4px;
+    color: #7fad39;
+    font-family: "Cairo", sans-serif;
+    
+}
+#banner h2{
+    font-size: 46px;
+    color: #252525;
+    line-height: 52px;
+    font-weight: 700;
+    margin: 10px 0;
+    font-family: "Cairo", sans-serif;
+}
+#banner p{
+    font-size: 16px;
+    font-family: "Cairo", sans-serif;
+    color: #6f6f6f;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0 0 15px 0;
+    margin-bottom: 35px
+}
+.btn{
+    display: inline-block;
+    font-size: 14px;
+    padding: 10px 28px 10px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 700;
+    background: #7fad39;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-family: "Cairo", sans-serif;
+}
+#English{
+    position: relative;
+    font-size: 14px;
+    color: #1c1c1c;
+    font-family: "Cairo", sans-serif;
+}
+#drop-menu{
+    position: absolute;
+    list-style: none;
+    padding: 0;
+    width: 400%;
+    opacity: 0;
+    z-index: -99;
+    top: 50px;
+    transition: 0.5s;
+ 
+    font-weight: 400;
+    padding: 5px 15px;
+    
+}
+#nav-drop{
+    position: relative;
+     color: white;
+}
+#nav-drop:hover #drop-menu{
+    opacity: 1;
+    z-index: 99;
+}
+#nav-link{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    height: 70px;
+    align-items: center;
+   width: 34vw;
+}
+
+
+#titulo{
+    color: #1c1c1c;
+    font-weight: 700;
+    position: relative;
+    font-size: 36px;
+    font-family: "Cairo", sans-serif;
+    text-align: center;
+    margin-top: 6rem;
+}
+#titulo h2:after {
+    position: absolute;
+    left: 0;
+    bottom: -15px;
+    right: 0;
+    height: 4px;
+    width: 80px;
+    background: #7fad39;
+    content: "";
+    margin: 0 auto;
+}
+#Featured ul li{
+    text-align: center;
+    margin-bottom: 50px;
+    list-style: none;
+    display: inline;
+    font-family: "Cairo", sans-serif;
+    list-style: none;
+    font-size: 18px;
+    color: #1c1c1c;
+    margin-right: 25px;
+    position: relative;
+    top: 5vh;
+    cursor: pointer;
+    left: 34vw;
+   
+}
+#product-photos {
+    margin-top: 10vh;
+    display: grid;
+    grid-template-columns:0.4fr  0.4fr 0.4fr 0.4fr;
+    grid-template-rows: 80px 80px;
+    grid-column-gap:1.8vw ;
+    grid-row-gap:40vh ;
+    width: 69vw;
+    height: 100vh;
+    margin-left: 15vw;
+    display: flexbox;
+   
+    
+}
+
+#photos{
+    height: 33vh;
+    background-image: url(img/cat-5.jpg);
+    text-align: center;
+}
+#photos h6{
+    position: relative;
+   top:35vh;
+   font-family: "Cairo", sans-serif ;
+    text-align: center;
+    font-size:  18px;
+    color: #252525;
+    font-weight: 400;
+    
+}
+#photos b{
+    color: #252525;
+    font-weight: 700 bold;
+    font-family: "Cairo", sans-serif;
+    position: relative;
+    top:35vh;
+  
+}
+#photos1
+{
+    height: 33vh;
+    background-image: url(img/feature-2.jpg);
+    text-align: center;
+}
+#photos1 h6{
+    text-align: center;
+    font-size:  18px;
+    font-family: "Cairo", sans-serif;
+    color: #252525;
+    font-weight: 400;
+    position: relative;
+    top:35vh;
+}
+#photos1 b{
+    color: #252525;
+    font-weight: 700;
+    color: #252525;
+    font-weight: 700;
+    font-family: "Cairo", sans-serif;
+    position: relative;
+    top:35vh;
+}
+
+#photos2
+{
+    height: 33vh;
+    background-image: url(img/feature-3.jpg);
+    text-align: center;
+}
+#photos2 h6{
+    text-align: center;
+    font-size:  18px;
+    font-family: "Cairo", sans-serif;
+    color: #252525;
+    font-weight: 400;
+    position: relative;
+    top:35vh;
+}
+#photos2 b{
+    color: #252525;
+    font-weight: 700;
+    color: #252525;
+    font-weight: 700;
+    font-family: "Cairo", sans-serif;
+    position: relative;
+    top:35vh;
+}
+#photos3
+{
+    height: 33vh;
+    background-image: url(img/feature-4.jpg);
+    text-align: center;
+}
+#photos3 h6{
+    text-align: center;
+    font-size:  18px;
+    font-family: "Cairo", sans-serif;
+    color: #252525;
+    font-weight: 400;
+    position: relative;
+    top:35vh;
+}
+#photos3 b{
+    color: #252525;
+    font-weight: 700;
+    color: #252525;
+    font-weight: 700;
+    font-family: "Cairo", sans-serif;
+    position: relative;
+    top:35vh;
+}
+#photos4
+{
+    background-image: url(img/feature-5.jpg);
+    height: 33vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: cover;
+}
+#photos4 h6{
+    text-align: center;
+    font-size:  18px;
+    font-family: "Cairo", sans-serif;
+    color: #252525;
+    font-weight: 400;
+    position: relative;
+    top:35vh;
+}
+#photos4 b{
+    color: #252525;
+    font-weight: 700;
+    color: #252525;
+    font-weight: 700;
+    font-family: "Cairo", sans-serif;
+    position: relative;
+    top:35vh;
+    left: 6.4vw;
+}
+#photos5
+{
+    background-image: url(img/feature-6.jpg);
+    height: 33vh;
+    text-align: center;
+}
+#photos5 h6{
+    text-align: center;
+    font-size:  18px;
+    font-family: "Cairo", sans-serif;
+    color: #252525;
+    font-weight: 400;
+    position: relative;
+    top:35vh;
+    
+}
+#photos5 b{
+    color: #252525;
+    font-weight: 700;
+    color: #252525;
+    font-weight: 700;
+    font-family: "Cairo", sans-serif;
+    position: relative;
+    top:35vh;
+}
+#photos6
+{
+    background-image: url(img/feature-7.jpg);
+    height: 33vh;
+    text-align: center;
+}
+#photos6 h6{
+    text-align: center;
+    font-size:  18px;
+    font-family: "Cairo", sans-serif;
+    color: #252525;
+    font-weight: 400;
+    position: relative;
+    top:35vh;
+}
+#photos6 b{
+    color: #252525;
+    font-weight: 700;
+    color: #252525;
+    font-weight: 700;
+    font-family: "Cairo", sans-serif;
+    position: relative;
+    top:35vh;
+}
+#photos7
+{
+    background-image: url(img/feature-8.jpg);
+    height: 33vh;
+    text-align: center;
+}
+#photos7 h6{
+    text-align: center;
+    font-size:  18px;
+    font-family: "Cairo", sans-serif;
+    color: #252525;
+    font-weight: 400;
+    position: relative;
+    top:35vh;
+}
+#photos7 b{
+    color: #252525;
+    font-weight: 700;
+    color: #252525;
+    font-weight: 700;
+    font-family: "Cairo", sans-serif;
+    position: relative;
+    top:35vh;
+}
+#summer{
+    display: grid;
+    grid-template-columns:6fr 6fr ;
+    grid-template-rows: 30vh ;
+    width: 73vw;
+    grid-column-gap:1.8vw ;
+    margin-left: 13vw;
+    margin-top: 2vh;
+}
+
+
+#summer-fruit{
+    background-image: url(img/banner-1.jpg);
+   
+}
+#dried-drink{
+    background-image: url(img/banner-2.jpg);
+  
+  
+}
+#Latest-Products{
+    display: grid;
+    grid-template-columns:0.1fr  0.1fr 0.1fr;
+    grid-template-rows: 81px 81px 81px;
+    grid-column-gap:19.5vw ;
+    grid-row-gap:4vh ;
+    position: relative;
+    left: 15vw;
+   
+}
+#Latest-Products div{
+  
+    width: 6vw;
+}
+section{
+    width: 80vw;
+}
+#latest-product {
+    display: flex;
+    font-family: "Cairo", sans-serif;
+    color: #1c1c1c;
+    margin-bottom: 45px;
+    margin-top: 45px;
+    font-size: 24px;
+}
+#latest-product h4{
+    font-family: "Cairo", sans-serif;
+    font-weight: 700;
+    color: #1c1c1c;
+    font-size: 24px;
+    position: relative;
+    left: 35vw;
+}
+#latest{
+    position: relative;
+    right: 20vw;
+}
+
+#Review{
+    position: relative;
+    left: 6vw;
+}
+#top{
+    position: relative;
+   right:6.5vw;
+}
+.alface{
+    background-image: url(img/lp-1.jpg);
+    background-size: 100%;
+    background-size: cover;
+   
+}
+
+.alface h6{
+    color: #252525;
+    margin-bottom: 8px;
+    font-family: "Cairo", sans-serif;
+    font-size: 16px;
+    position: relative;
+    left: 8vw;
+    width: max-content;
+    font-weight: 400;
+   
+}
+.alface b span{
+    font-size: 18px;
+    display: block;
+    color: #252525;
+    font-weight: 700;
+    font-family: "Cairo", sans-serif;
+    position: relative;
+    left: 8vw;
+}
+
+.pimentao{
+background-image: url(img/lp-2.jpg);
+background-size: 100%;
+background-size: cover;
+}
+.pimentao h6{
+    color: #252525;
+    margin-bottom: 8px;
+    font-family: "Cairo", sans-serif;
+    font-size: 16px;
+    position: relative;
+    left: 8vw;
+    width: max-content;
+    font-weight: 400;
+
+}
+.pimentao b span{
+    font-size: 18px;
+    display: block;
+    color: #252525;
+    font-weight: 700;
+    font-family: "Cairo", sans-serif;
+    position: relative;
+    left: 8vw;
+}
+.frango{
+    background-image: url(img/lp-3.jpg);
+    background-size: 100%;
+    background-size: cover;
+}
+.frango h6{
+    color: #252525;
+    margin-bottom: 8px;
+    font-family: "Cairo", sans-serif;
+    font-size: 16px;
+    position: relative;
+    left: 8vw;
+    width: max-content;
+    font-weight: 400;
+   
+}
+.frango b span{
+    font-size: 18px;
+    display: block;
+    color: #252525;
+    font-weight: 700;
+    font-family: "Cairo", sans-serif;
+    position: relative;
+    left: 8vw;
+}
+#blog h2{
+    color: #1c1c1c;
+    font-weight: 700;
+    position: relative;
+    font-family: "Cairo", sans-serif;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 6rem;
+  
+}
+#blog h2:after {
+    position: absolute;
+    left: 0;
+    bottom: -15px;
+    right: 0;
+    height: 4px;
+    width: 80px;
+    background: #7fad39;
+    content: "";
+    margin: 0 auto;
+}
+#from-theblog{
+    display: flex;
+    display: grid;
+    grid-template-columns:1.4fr  1.8fr 1.8fr;
+    grid-template-rows: 250px ;
+    grid-column-gap:1vw ;
+    grid-row-gap:4vh ;
+    width: 67vw;
+    position: relative;
+    left: 20vw;
+    top: 7.5vh;
+    margin-bottom:vh ;
+   
+ 
+}
+
+#blog-photo1{
+    background-image: url(img/blog-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-bottom: 5vh;
+    height: 100%;
+
+}
+#blog-photo2{
+    background-image: url(img/blog-2.jpg);
+    background-repeat: no-repeat;
+    margin-bottom: 5vh;
+    height: 100%;
+  
+
+}
+#blog-photo3{
+    background-image: url(img/blog-3.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    right: 3.3vw;
+    margin-bottom: 5vh;
+    height: 100%;
+
+}
+#blog-photo1 ul {
+    display: flex;
+  
+   
+}
+#blog-photo1 li {
+display: flex;
+text-decoration: none;
+font-family: "Cairo", sans-serif;
+position: relative;
+top: 28vh;
+color: #a39e9e;
+right: 3vw;
+text-align: left;
+}
+#blog-photo1 h5 a {
+    color: #111111;
+    background-color: transparent;
+    font-family: "Cairo", sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    color: #1c1c1c;
+    font-weight: 700;
+    position: relative;
+    top: 28vh;
+    right: 0vw;
+}
+#blog-photo1 p{
+    font-size: 16px;
+    font-family: "Cairo", sans-serif;
+    color: #6f6f6f;
+    font-weight: 400;
+    line-height: 26px;
+    position: relative;
+    top: 28vh;
+    right: 0vw;
+    width: 20vw;
+}
+#blog-photo1 svg{
+    margin-left: 1vw;
+    margin-right:0.2vw ;
+}
+
+
+#blog-photo2 ul {
+    display: flex;
+}
+#blog-photo2 li {
+    display: flex;
+    text-decoration: none;
+    font-family: "Cairo", sans-serif;
+    position: relative;
+    top: 28vh;
+    color: #a39e9e;
+    right: 3.1vw;
+    text-align: left;
+    }
+    #blog-photo2 h5 a {
+        color: #111111;
+        background-color: transparent;
+        font-family: "Cairo", sans-serif;
+        text-decoration: none;
+        font-size: 20px;
+        color: #1c1c1c;
+        font-weight: 700;
+        position: relative;
+        top: 28vh;
+        right: 0vw;
+    }
+    #blog-photo2 p{
+        font-size: 16px;
+        font-family: "Cairo", sans-serif;
+        color: #6f6f6f;
+        font-weight: 400;
+        line-height: 26px;
+        position: relative;
+        top: 28vh;
+        right: 0vw;
+        width: 20vw;
+    }
+    #blog-photo2 svg{
+        margin-left: 1vw;
+        margin-right:0.2vw ;
+    }
+    #blog-photo3 ul {
+        display: flex;
+    }
+    #blog-photo3 li {
+        display: flex;
+        text-decoration: none;
+        font-family: "Cairo", sans-serif;
+        position: relative;
+        top: 28vh;
+        color: #a39e9e;
+        right: 3vw;
+        text-align: left;
+        }
+    #blog-photo3 h5 a {
+        color: #111111;
+        background-color: transparent;
+        font-family: "Cairo", sans-serif;
+        text-decoration: none;
+        font-size: 20px;
+        color: #1c1c1c;
+        font-weight: 700;
+        position: relative;
+        top: 28vh;
+        right: 0vw;
+    }
+    #blog-photo3 p{
+        font-size: 16px;
+        font-family: "Cairo", sans-serif;
+        color: #6f6f6f;
+        font-weight: 400;
+        line-height: 26px;
+        position: relative;
+        top: 28vh;
+        right: 0vw;
+        width: 20vw;
+    }
+    #blog-photo3 svg{
+        margin-left: 1vw;
+        margin-right:0.2vw ;
+    }
+#ogani-fim{
+  
+    background: #F3F6FA;
+    padding-top: 70px;
+    padding-bottom: 0;
+    position: relative;
+    top: 30vh;
+    width: auto;
+    height: 87vh;
+    
+}
+#logofim{
+    position: relative;
+    left: 20vw;
+    width: 10%;
+}
+#logofim ul li{
+    font-size: 16px;
+    color: #1c1c1c;
+    line-height: 36px;
+    list-style: none;
+    font-family: "Cairo", sans-serif;
+    width: 50vw;
+    position: relative;
+    right: 2vw;
+   
+}
+#logofim ul{
+    margin-top: 1vh;
+}
+
+
+#Useful h6{
+    color: #1c1c1c;
+    font-weight: 700;
+    font-family: "Cairo", sans-serif;
+    font-size: 16px;
+    position: relative;
+    left: 41.6vw;
+    width: 50vw;
+    right: 20vw;
+    
+}
+
+#Useful ul li a{
+    color: #1c1c1c;
+    font-size: 14px;
+    line-height: 32px;
+    text-decoration: none;
+    font-family: "Cairo", sans-serif;
+    position: relative;
+    left: 39.5vw;
+
+ 
+}
+#Useful{
+    position: relative;
+    bottom: 20vh;
+    padding: 0;
+}
+#Useful ul{
+    list-style: none;
+}
+#Useful2 ul li a{
+    color: #1c1c1c;
+    font-size: 14px;
+    line-height: 32px;
+    text-decoration: none;
+    font-family: "Cairo", sans-serif;
+    position: relative;
+    left: 50vw;
+
+ 
+}
+#Useful2{
+    position: relative;
+    bottom: 40vh;
+    padding: 0;
+}
+#Useful2 ul{
+    list-style: none;
+}
+#Email h6{
+    color: #1c1c1c;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-family: "Cairo", sans-serif;
+}
+#Email p{
+    font-size: 14px;
+    color: #1c1c1c;
+    margin-bottom: 30px;
+    font-family: "Cairo", sans-serif;
+}
+#Email input{
+    width: 100%;
+    font-size: 16px;
+    padding-left: 20px;
+    color: #1c1c1c;
+    height: 46px;
+    border: 1px solid #ededed;
+    overflow: visible;
+    width: 300px;
+}
+#Email button{
+    position: absolute;
+    height: 46px;
+    font-family: "Cairo", sans-serif;
+    width: 7vw;
+   
+}
+.site-btn{
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 800;
+    text-transform: uppercase;
+    display: inline-block;
+    background: #7fad39;
+    border: none;
+}
+#Email{
+    position: relative;
+    left: 61vw;
+    width: min-content;
+    bottom: 63vh;
+}
+#svgs a{
+    display: inline-block;
+    height: 41px;
+    width: 41px;
+    font-size: 16px;
+    color: #404040;
+    border: 1px solid #ededed;
+    border-radius: 50%;
+    line-height: 38px;
+    text-align: center;
+    background: #ffffff;
+    bottom: 60vh;
+    margin-right: 10px;
+    position: relative;
+    left: 61vw;
+}
+#linha{
+    position: relative;
+    left: 20vw;
+    width: 50%;
+    bottom: 55vh;
+    color: #d3cfcf;
+}
+#copyright p{
+    font-size: 16px;
+    font-family: "Cairo", sans-serif;
+    color: #6f6f6f;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0 0 15px 0;
+}
+#copyright  p svg{
+    color: #6f6f6f;
+}
+#copyright a{
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+#copyright {
+    position: relative;
+    left:20vw;
+    width: 50%;
+    bottom: 53vh;
+}
+#pagamento{
+    position: relative;
+    left: 61vw;
+    bottom: 56vh;
+    width: 20%;
+}
+.dropdown {
+    position: relative;
+
+}
+
+.dropdown-content {
+    opacity: 0;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    font-family: 'Cairo';
+    font-size: 15px;
+    height: 56vh;
+
+}
+
+#check {
+    display: none;
+}
+
+#check:checked~.dropdown-content {
+    opacity: 1;
+}
+
+li {
+    list-style: none;
+    margin: 8px;
+}
+
+#btn_verde {
+    display: flex;
+    background: #7fad39;
+    width: 100%;
+    color: white;
+    font-family: 'Cairo';
+    font-weight: 900;
+    height: 5vh;
+    font-size: 20px;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+#busca input{
+    width: 37%;
+   border: none;
+    height: 48px;
+    font-size: 16px;
+    color: #b2b2b2;
+    padding-left: 20px;
+    overflow: visible;
+    position: relative;
+    left: 9vw;
+    top: 1.7vh;
+}
+#busca button{
+    height: 50px;
+    font-family: "Cairo", sans-serif;
+    position: relative;
+    left: 12vw;
+    top: 1.7vh;
+}
+.btnneed{
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 800;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 13px 30px 12px;
+    background: #7fad39;
+    border: none;
+}
+#busca h4{
+    text-decoration: none;
+    font-family: "Cairo", sans-serif;
+    border: none;
+   left: 3vw;
+    position: relative;
+    top: 3vh;
+}
+#busca i svg{
+    position: relative;
+    left: 14vw;
+    top: 4vh;
+}
+#telefoneicon{
+    font-size: 18px;
+    color: #7fad39;
+    height: 50px;
+    width: 50px;
+    background: #f5f5f5;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    position: relative;
+    left: 14vw;
+    top: 2vh;
+}
